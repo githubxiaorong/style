@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:shape指定形状类型，默认为rectangle
+rectangle: 矩形，默认的形状，可以画出直角矩形、圆角矩形、弧形等
+oval: 椭圆形，用得比较多的是画正圆
+line: 线形，可以画实线和虚线
+ring: 环形，可以画环形进度条-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+<!--
+line主要用于画分割线，是通过stroke和size特性组合来实现的，先看虚线的代码：
+
+-->
+    <!-- 实际显示的线 -->
+    <stroke
+        android:width="1dp"
+        android:color="#ccc4c4"
+
+        />
+    <!-- 形状的高度 -->
+    <size android:height="2dp" />
+
+
+
+
+</shape>

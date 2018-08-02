@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:shape指定形状类型，默认为rectangle
+rectangle: 矩形，默认的形状，可以画出直角矩形、圆角矩形、弧形等
+oval: 椭圆形，用得比较多的是画正圆
+line: 线形，可以画实线和虚线
+ring: 环形，可以画环形进度条-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+<!--
+效果可以应用solid、padding、stroke、gradient、size几个特性。size是用来设置形状大小的，如下：
+
+size: 设置形状默认的大小，可设置宽度和高度
+android:width 宽度
+android:height 高度
+
+-->
+
+<!--    <solid
+        android:color="#de3c3c"/>-->
+    <padding
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp"
+        android:bottom="5dp"
+      />
+
+    <stroke
+        android:color="#9e9999"
+        android:width="1dp"
+
+        />
+    <size
+        android:width="40dp"
+        android:height="40dp"/>
+    <gradient
+        android:endColor="#da6a6a"
+        android:startColor="#FFFFFF"
+        android:gradientRadius="40dp"
+        android:type="radial" />
+
+
+
+</shape>
